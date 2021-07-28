@@ -1,17 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<meta charset="utf-8">
 	<title>Vicente Lopes</title>
 	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
 </head>
 <body>
+
 <header>
 	<img src="eu.jpg" alt="Foto do dono do blog!" class="photo">
 <h1 id="title">Vicente Lopes</h1>
 </header>
 <section>
 	<header>
+		<button type="button" onclick="clicar()"> Redirecionar para o site da bolsa!!</button>
+		<p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui!!</p>
+
+		<select onchange="funcaoChange(this)">
+			<option value="1">Valor 1</option>
+			<option value="2">Valor 2</option>
+			<option value="3">Valor 3</option>
+
+		</select>
 		<h2 class="subtitle">Post</h2>
 	</header>
 	<article class="post">
@@ -38,4 +49,4 @@
 	</ul>
 </footer>
 </body>
-</html>>
+</html>
