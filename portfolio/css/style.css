@@ -1,0 +1,28 @@
+.container-md{
+    margin-top: 50px;
+    width: 800px;
+    text-align: justify;
+
+}
+
+.col-8{
+    width: 800px;
+    text-align: center;
+
+
+}
+
+img{
+    align-self: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 40%;
+    height: 200px;
+    border-style: groove;
+}
+
+
+.card{
+    align-self: center;
+    text-align: center;
+}
