@@ -25,7 +25,7 @@
             <ul class="navbar-nav ">
 
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="pagina_inicial.html">Página Inicial</a>
+                <a class="nav-link " href="pagina_inicial.html">Página Inicial</a>
               </li>
 
               <li class="nav-item">
@@ -33,7 +33,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="APIs.html">APIs</a>
+                <a class="nav-link active" href="APIs.html">APIs</a>
               </li>
 
               <li class="nav-item">
@@ -48,59 +48,107 @@
       
         <div class="card-body">
             <h5 class="card-title" style="font-size: 30px; font-style: oblique;">
-                Consulta CEP</h5>      
+                APIs</h5>
         </div>
     </div>
 
-    <div class="container barra-progresso" style="margin-top: 40px; margin-bottom: 40px;">
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+
+  <div class="container text-center" style="margin-left: auto;margin-right: auto; padding: 0%;">
+    <div class="row">
+      <div class="col">
+        
+        <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card-header">Consulta CEP</div>
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">Retorna a rua, bairro, cidade e estado correspondente ao cep informado, caso digitado corretamente.</p>
+            <a href="consultacep.html" class="btn btn-primary">Testar</a>
+          </div>
         </div>
-    </div>
-
-    <div class="d-flex" role="search" style="margin-left: 200px; margin-right: 200px;">
-        <input class="form-control me-2" type="search" placeholder="Digite aqui" id="cep">
-        <button class="btn btn-outline-success" type="submit" onclick="consultacep()">Buscar</button>
-    </div>
-
-    <div class ="container cep" style="margin-top: 20px;">
-
-        <div class="row">
-            <h3 id="titulo_cep">CEP</h3>
+        <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Secondary card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-secondary">Testar</a>
+          </div>
+        </div>
+        <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Success card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-success">Testar</a>
+          </div>
+        </div>
+        
+      
+      </div>
+      <div class="col">
+        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Primary card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-dark">Testar</a>
+          </div>
+        </div>
+        <div class="card text-bg-light mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Secondary card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-light">Testar</a>
+          </div>
+        </div>
+        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Success card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-dark">Testar</a>
+          </div>
         </div>
 
-        <div class="row" style="margin-top: 20px;">
-            <table class="table">
-                <tbody>
-                    <tr>
-                        <td>Rua</td>
-                        <td id="logradouro"></td>
-                    </tr>
-                    <tr>
-                        <td>Bairro</td>
-                        <td id="bairro"></td>
-                    </tr>
-                    <tr>
-                        <td>Cidade</td>
-                        <td id="localidade"></td>
-                    </tr>
-                    <tr>
-                        <td>UF</td>
-                        <td id="uf"></td>
-                    </tr>
+      </div>
 
-                </tbody>
-            </table>
-            
+      <div class="col">
+        <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Primary card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-success">Testar</a>
+          </div>
         </div>
-
-
+        <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Secondary card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-secondary">Testar</a>
+          </div>
+        </div>
+        <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Success card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Testar</a>
+          </div>
+        </div>
+        
+      </div>
     </div>
+  </div>
+
+
+  
 
     
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br>
+ 
     
   
 
@@ -109,7 +157,7 @@
     ********************************************************************************
 -->
 
-<<footer class="bg-light text-center text-lg-start">
+<footer class="bg-light text-center text-lg-start" style="margin-top: 100px;">
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2022 Copyright:
@@ -117,5 +165,7 @@
   </div>
   <!-- Copyright -->
 </footer>
+
+
 </body>
 </html>

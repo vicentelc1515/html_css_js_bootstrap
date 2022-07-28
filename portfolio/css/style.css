@@ -26,3 +26,12 @@ img{
     align-self: center;
     text-align: center;
 }
+
+.rede-social{
+    max-width: 10%;
+    min-width: 30px;
+    max-height: 40px;
+    border-radius: 100%;
+    border-color: slategray;
+
+}
